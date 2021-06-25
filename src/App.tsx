@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import LandingPage from './pages/LandingPage';
+import styled from 'styled-components';
 
-function App() {
+const Container = styled.div`
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content auto;
+
+  background-color: #30404D;
+`
+
+type AppProps = { }
+
+const App: React.FC<AppProps> = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Container className="bp3-dark">
+      <NavBar />
+      <LandingPage />
+    </Container>
+  )
 }
 
 export default App;
