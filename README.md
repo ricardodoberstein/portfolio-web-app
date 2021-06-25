@@ -7,3 +7,4 @@ Current stable version deployed [Here](http://prod-portfolio-web-app.s3-website-
 * [ReactJS](https://reactjs.org/)
 * [Typescript](https://www.typescriptlang.org/)
 * [BlueprintJS](https://blueprintjs.com/)
+* [styled-components](https://styled-components.com/)
