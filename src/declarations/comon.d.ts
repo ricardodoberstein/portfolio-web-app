@@ -8,3 +8,18 @@ declare type Skill = {
   progress: number;
   leveling: boolean;
 }
+
+declare type Project = {
+  logo: string;
+  overview: string;
+  company: string;
+  companyUrl: string;
+  platforms: string[]
+  title: string;
+  private: boolean;
+  github: string;
+  technologies: string[];
+  role: string;
+  url: string;
+  active: boolean;
+}

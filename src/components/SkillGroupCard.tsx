@@ -32,7 +32,7 @@ const SkillGroupCard: React.FC<SkillGroupCardProps> = (props) => {
   }
 
   return (
-    <Card elevation={3} interactive={true}>
+    <Card elevation={3} interactive={true} >
       <h2>{skillGroup.name}</h2>
       <Grid>
       {skillGroup.skills.map((skill) => (
