@@ -321,7 +321,7 @@ export const VELO3D_PROJECT: Project = {
 }
 
 export const LIFEUP_PROJECT: Project = {
-  logo: "https://homologationcheckup.lifeup.med.br/styles/assets/logo-principal.png",
+  logo: "https://checkup.lifeup.med.br/styles/assets/logo-principal.png",
   overview: "Building a Web App that help doctors create, manage and maintain medical records of patients, display the information on an elegant way and give Doctors advanced functionalities such as AI text detection of exams to quickly add them to the patient's records.",
   company: "Life Up",
   companyUrl: "https://www.facebook.com/lifeup.prevencao/",
